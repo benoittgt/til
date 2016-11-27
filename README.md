@@ -56,6 +56,7 @@ _19 TILs and counting..._
 - [Search word under cursor with Ag](vim/search_word_under_cursor.md)
 - [Split lines with dots](vim/split_lines_with_dots.md)
 - [Track performance issues](vim/track_performance_issues.md)
+- [Motions I didn't know](vim/motions_i_didn_t_know.md)
 - [Vim relative line toggle](vim/relative_line_numbers_toggle.md)
 - [Yank relative file path with line number](vim/yank_relative_file_path_wih_l_number.md)
 
