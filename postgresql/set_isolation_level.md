@@ -1,6 +1,6 @@
 # Set ISOLATION level
 
-Last I were wondering what's happen if in the middle of transaction data get inserted :
+Last time I were wondering what's happen if in the middle of transaction data get inserted :
 
 ```SQL
 BEGIN;
@@ -20,7 +20,7 @@ INNER JOIN sensor_location_to_insert USING (location);
 COMMIT;
 ```
 
-Does the `SELECT` will result in a different number of rows. The [anwser](http://dba.stackexchange.com/a/160171/100437) is :
+Does the second `SELECT` will result in a different number of rows. The [anwser](http://dba.stackexchange.com/a/160171/100437) is :
 
 > A statement sees a consistent view of the "world" based on the data that was there when the statement started. So the select statements in your two insert statements will not see new rows while they are running.
 
