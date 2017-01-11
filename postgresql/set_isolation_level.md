@@ -1,4 +1,4 @@
-# Set ISOLATION level
+# SET ISOLATION LEVEL
 
 Last time I were wondering what's happen if in the middle of transaction data get inserted :
 
