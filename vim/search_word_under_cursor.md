@@ -1,4 +1,4 @@
-#Search word under cursor
+# Search word under cursor
 
 On Vim often I have to search on my project. To do this really easy I have
 in my vimrc.
